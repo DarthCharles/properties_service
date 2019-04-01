@@ -25,6 +25,9 @@ gem 'puma', '~> 3.11'
 # gem that helps to write commands in ruby.
 gem 'aye_commander'
 
+# Provides location-based goodness for your Rails app
+gem 'geokit-rails'
+
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
 

@@ -8,7 +8,7 @@ class Property::SearchCommandTest < ActiveSupport::TestCase
     it 'returns an array of properties within 5km radius' do
       result = @command.call(lng: 13.4058114, lat: 52.530741, property_type: 'apartment', offer_type: 'sell')
       assert result.success?
-      assert [], result.properties
+      assert_equal 2, result.properties.count
     end
 
     it 'fails and abort if params are missing' do

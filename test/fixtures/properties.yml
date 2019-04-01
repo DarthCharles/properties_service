@@ -19,7 +19,7 @@ apartment_property:
 apartment_property_close:
   offer_type: "sell"
   property_type: "apartment"
-  zip_code: "10117"
+  zip_code: "10120"
   city: "Berlin"
   lng: 13.4059114
   lat: 52.530761
